@@ -1,1 +1,39 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/deeppurple-amber.css";
+
+body {
+    background-color: #321f50 !important;
+    color: #f7f7f7 !important;
+}
+
+*{
+    font-family: 'Oswald', sans-serif;
+}
+
+.contenedor{
+    padding: 15px;
+    width: 80%;
+    margin: auto;
+}
+/* @import "~@angular/material/prebuilt-themes/deeppurple-amber.css";
+@import "assets/flexboxgrid-6.3.1/dist/flexboxgrid.css";
+
+h1{
+    font-family: 'Oswald', sans-serif;
+}
+
+p{
+    font-family: 'Roboto Slab', serif;
+}
+
+h3{
+    font-family: 'Slabo 27px', serif;
+}
+
+a{
+    font-family: 'Charmonman', cursive;
+}
+
+article{
+    font-family: 'Charmonman', cursive !important;
+} */

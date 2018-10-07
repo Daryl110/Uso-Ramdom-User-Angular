@@ -1,0 +1,10 @@
+<div class="card-contenedor">
+  <mat-card class="card-img" *ngFor="let photo of photos">
+    <img mat-card-image src="{{photo.thumbnailUrl}}" >
+    <mat-card-content>
+      <p>
+        {{photo.title}}
+      </p>
+    </mat-card-content>
+  </mat-card>
+</div>

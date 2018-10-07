@@ -1,0 +1,7 @@
+.card-contenedor{
+    display: grid;
+    grid-template: auto / repeat(4, 22vw);
+    grid-gap: 1rem;
+    justify-content: space-around;
+}
+
